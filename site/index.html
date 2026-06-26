@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marché Freshco — Fresh, Every Day | Halal & International Market, Pierrefonds</title>
+  <meta name="description" content="Marché Freshco — a fresh produce, halal & international grocery market in Pierrefonds, QC. Fresh fruit and vegetables daily, world pantry, great prices." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=2" />
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__ring"></div>
+    <div class="preloader__word"><span>Marché</span><span>Freshco</span></div>
+  </div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand">
+      <span class="nav__leaf" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="26" height="26"><path d="M16 2C9 7 5 12 5 19a11 11 0 0 0 22 0c0-7-4-12-11-17Z" fill="currentColor"/><path d="M16 8v18" stroke="#F6F1E7" stroke-width="1.6" fill="none"/></svg>
+      </span>
+      Marché&nbsp;<em>Freshco</em>
+    </a>
+    <nav class="nav__links">
+      <a href="#produce" data-i18n="nav.produce">Produce</a>
+      <a href="products.html" data-i18n="nav.products">Products</a>
+      <a href="#store" data-i18n="nav.market">The Market</a>
+      <a href="#visit" data-i18n="nav.visit">Visit</a>
+    </nav>
+    <div class="nav__right">
+      <span class="nav__hours" data-i18n="nav.hours">Open till 10pm</span>
+      <button class="lang-toggle" data-lang-toggle aria-label="Passer au français">FR</button>
+      <a href="#visit" class="btn btn--pill" data-i18n="nav.find">Find Us</a>
+      <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__bg"></div>
+    <div class="hero__tags">
+      <span>Halal</span><span class="dot">•</span><span data-i18n="hero.fresh">Fresh</span><span class="dot">•</span><span>Local</span>
+    </div>
+    <h1 class="hero__title">
+      <span class="line"><span class="w" data-i18n="hero.t1">Fresh,</span></span>
+      <span class="line"><span class="w" data-i18n="hero.t2">every</span> <span class="w hero__accent" data-i18n="hero.t3">day.</span></span>
+    </h1>
+    <img class="hero__produce" src="assets/img/hero-produce.png" alt="Fresh produce" />
+    <p class="hero__sub" data-i18n="hero.sub">Real fruit. Real vegetables. A whole world of pantry — picked fresh and priced fair, in the heart of Pierrefonds.</p>
+    <a href="#manifesto" class="hero__scroll" data-i18n="hero.scroll">Scroll <span>↓</span></a>
+    <div class="hero__num" aria-hidden="true">01</div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Fruits</span><i>✺</i><span data-i18n="mq.veg">Vegetables</span><i>✺</i><span>Halal</span><i>✺</i><span data-i18n="mq.spices">Spices</span><i>✺</i><span data-i18n="mq.rice">Rice &amp; Grains</span><i>✺</i><span data-i18n="mq.drinks">World Drinks</span><i>✺</i><span data-i18n="mq.tea">Tea</span><i>✺</i><span data-i18n="mq.bakery">Bakery</span><i>✺</i>
+      <span>Fruits</span><i>✺</i><span data-i18n="mq.veg">Vegetables</span><i>✺</i><span>Halal</span><i>✺</i><span data-i18n="mq.spices">Spices</span><i>✺</i><span data-i18n="mq.rice">Rice &amp; Grains</span><i>✺</i><span data-i18n="mq.drinks">World Drinks</span><i>✺</i><span data-i18n="mq.tea">Tea</span><i>✺</i><span data-i18n="mq.bakery">Bakery</span><i>✺</i>
+    </div>
+  </div>
+
+  <!-- MANIFESTO -->
+  <section class="manifesto" id="manifesto">
+    <p class="reveal-lines">
+      <span data-i18n="man.1">No tired shelves.</span>
+      <span data-i18n="man.2">No mystery produce.</span>
+      <span data-i18n="man.3">Just <em>fresh fruit</em>, crisp <em>vegetables</em>,</span>
+      <span data-i18n="man.4">and a pantry that speaks</span>
+      <span data-i18n="man.5">every language on the block.</span>
+    </p>
+  </section>
+
+  <!-- CATEGORY 01 — PRODUCE -->
+  <section class="cat cat--light" id="produce">
+    <div class="cat__num" data-num>01</div>
+    <div class="cat__inner">
+      <div class="cat__media reveal-up">
+        <img src="assets/img/cat-produce.png" alt="Fresh produce" />
+      </div>
+      <div class="cat__copy">
+        <span class="cat__kicker" data-i18n="c1.kick">01 — The Market</span>
+        <h2 class="reveal-up" data-i18n="c1.h">Fresh produce,<br/><span class="ink-green">picked daily.</span></h2>
+        <p class="reveal-up" data-i18n="c1.p">Apples, peppers, herbs, citrus, plantains, cassava and tropical finds — stacked by hand every morning. Bright, abundant, and priced for real families.</p>
+        <ul class="cat__list reveal-up">
+          <li data-i18n="c1.l1">Fruit &amp; veg</li><li data-i18n="c1.l2">Fresh herbs</li><li data-i18n="c1.l3">Tropical &amp; specialty</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORY 02 — PANTRY -->
+  <section class="cat cat--dark" id="pantry">
+    <div class="cat__num" data-num>02</div>
+    <div class="cat__inner cat__inner--rev">
+      <div class="cat__media reveal-up">
+        <img src="assets/img/cat-pantry.png" alt="International pantry" />
+      </div>
+      <div class="cat__copy">
+        <span class="cat__kicker" data-i18n="c2.kick">02 — World Pantry</span>
+        <h2 class="reveal-up" data-i18n="c2.h">Halal &amp; international,<br/><span class="ink-orange">all in one aisle.</span></h2>
+        <p class="reveal-up" data-i18n="c2.p">Basmati rice, lentils &amp; dals, atta flour, ghee, a full wall of spices and tea — the staples of South Asian, Middle Eastern, African &amp; Caribbean kitchens, certified halal.</p>
+        <ul class="cat__list reveal-up">
+          <li data-i18n="c2.l1">Rice &amp; grains</li><li data-i18n="c2.l2">Spices &amp; tea</li><li data-i18n="c2.l3">Halal certified</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORY 03 — DRINKS -->
+  <section class="cat cat--light" id="drinks">
+    <div class="cat__num" data-num>03</div>
+    <div class="cat__inner">
+      <div class="cat__media reveal-up">
+        <img src="assets/img/cat-drinks.png" alt="World drinks and snacks" />
+      </div>
+      <div class="cat__copy">
+        <span class="cat__kicker" data-i18n="c3.kick">03 — Drinks &amp; Snacks</span>
+        <h2 class="reveal-up" data-i18n="c3.h">A fridge from<br/><span class="ink-green">around the world.</span></h2>
+        <p class="reveal-up" data-i18n="c3.p">Mango &amp; tropical juices, malt drinks, yogurt drinks, milk powders and the snacks you grew up on — chilled, stocked, and ready to go.</p>
+        <ul class="cat__list reveal-up">
+          <li data-i18n="c3.l1">World juices</li><li data-i18n="c3.l2">Snacks</li><li data-i18n="c3.l3">Dairy &amp; powders</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY / STATS -->
+  <section class="story" id="store">
+    <div class="story__head">
+      <span class="cat__kicker light" data-i18n="st.kick">Why the neighbourhood loves it</span>
+      <h2 class="reveal-up" data-i18n="st.h">Clean aisles. Kind faces.<br/>Prices that make sense.</h2>
+    </div>
+    <div class="story__stats">
+      <div class="stat reveal-up"><b data-count="5.0">5.0</b><span data-i18n="st.s1">★ Google rating</span></div>
+      <div class="stat reveal-up"><b>10</b><span data-i18n="st.s2">departments under one roof</span></div>
+      <div class="stat reveal-up"><b>100%</b><span data-i18n="st.s3">halal &amp; freshly stocked</span></div>
+      <div class="stat reveal-up"><b data-i18n="st.s4val">till&nbsp;10</b><span data-i18n="st.s4">open late, every day</span></div>
+    </div>
+    <p class="story__quote reveal-up" data-i18n="st.quote">“A large variety of products, very clean store and very nice service. Great quality, great prices.”<span>— our neighbours on Google</span></p>
+  </section>
+
+  <!-- DEPARTMENTS -->
+  <section class="depts">
+    <h2 class="depts__title reveal-up" data-i18n="dp.title">Everything, in one stop.</h2>
+    <div class="depts__grid">
+      <span class="reveal-up" data-i18n="dp.produce">Produce</span><span class="reveal-up" data-i18n="dp.rice">Rice &amp; Grains</span><span class="reveal-up" data-i18n="dp.spices">Spices</span>
+      <span class="reveal-up" data-i18n="dp.tea">Tea &amp; Snacks</span><span class="reveal-up" data-i18n="dp.dairy">Dairy &amp; Milk Powder</span><span class="reveal-up" data-i18n="dp.drinks">World Drinks</span>
+      <span class="reveal-up" data-i18n="dp.halal">Halal</span><span class="reveal-up" data-i18n="dp.household">Household</span><span class="reveal-up" data-i18n="dp.beauty">Beauty</span><span class="reveal-up" data-i18n="dp.bakery">Bakery</span>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testi" id="reviews">
+    <div class="testi__head">
+      <span class="cat__kicker light" data-i18n="tm.kick">Loved by the neighbourhood</span>
+      <h2 class="reveal-up" data-i18n="tm.h">What people are saying</h2>
+    </div>
+    <div class="testi__grid">
+      <figure class="tcard reveal-up">
+        <div class="tcard__stars" aria-label="5 out of 5">★★★★★</div>
+        <blockquote data-i18n="tm.q1">Everything was very well organized and they have a large variety of products. Very satisfied with my purchases — highly recommend for great quality and service!</blockquote>
+        <figcaption><span class="tcard__name">Ritu Chahal</span><span class="tcard__src" data-i18n="tm.src">Google review</span></figcaption>
+      </figure>
+      <figure class="tcard reveal-up">
+        <div class="tcard__stars" aria-label="5 out of 5">★★★★★</div>
+        <blockquote data-i18n="tm.q2">Really good client service, they treat you with hospitality, and it's really clean.</blockquote>
+        <figcaption><span class="tcard__name">Ali Hussain</span><span class="tcard__src" data-i18n="tm.src">Google review</span></figcaption>
+      </figure>
+      <figure class="tcard reveal-up">
+        <div class="tcard__stars" aria-label="5 out of 5">★★★★★</div>
+        <blockquote data-i18n="tm.q3">Great guys with great prices.</blockquote>
+        <figcaption><span class="tcard__name">Navi</span><span class="tcard__src" data-i18n="tm.src">Google review</span></figcaption>
+      </figure>
+    </div>
+    <a class="testi__cta" href="https://www.google.com/maps/place/March%C3%A9+Freshco/@45.5044476,-73.7794275,17z" target="_blank" rel="noopener" data-i18n="tm.cta">Read more on Google →</a>
+  </section>
+
+  <!-- VISIT / FOOTER -->
+  <footer class="visit" id="visit">
+    <div class="visit__num" aria-hidden="true">↓</div>
+    <h2 class="visit__title" data-i18n="vs.title">Come taste<br/><span class="ink-orange">fresh.</span></h2>
+    <div class="visit__cols">
+      <div>
+        <h4 data-i18n="vs.find">Find us</h4>
+        <p>9549 Boul Gouin O<br/>Pierrefonds, QC H8Y 1R2</p>
+      </div>
+      <div>
+        <h4 data-i18n="vs.hours">Hours</h4>
+        <p data-i18n="vs.hoursp">Every day<br/>Open till 10:00 pm</p>
+      </div>
+      <div>
+        <h4 data-i18n="vs.say">Say hi</h4>
+        <p data-i18n="vs.sayp">Fresh produce daily<br/>Halal &amp; international</p>
+      </div>
+    </div>
+    <a class="btn btn--big" href="https://maps.google.com/?q=Marché+Freshco+9549+Gouin+Pierrefonds" target="_blank" rel="noopener" data-i18n="vs.dir">Get directions →</a>
+    <div class="visit__base">
+      <span>Marché Freshco</span>
+      <span>Frais, chaque jour · Fresh, every day</span>
+      <span>© 2026</span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="js/i18n.js?v=2"></script>
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>
