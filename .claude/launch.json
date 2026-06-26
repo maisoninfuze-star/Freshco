@@ -4,7 +4,7 @@
     {
       "name": "freshco",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8180", "--directory", "site"],
+      "runtimeArgs": ["-m", "http.server", "8180"],
       "port": 8180
     }
   ]

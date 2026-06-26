@@ -7,16 +7,17 @@ Website for **Marché Freshco** — a fresh produce, halal & international groce
 ## What's here
 
 ```
-site/                 The website (static HTML / CSS / JS)
-  index.html          Homepage — animated hero, categories, story, testimonials
-  products.html       "What's in store" product catalogue
-  css/style.css       Styles & design tokens
-  js/main.js          GSAP + Lenis scroll animations
-  js/i18n.js          Bilingual FR / EN toggle
-  assets/img/         Imagery (hero, category & product photography)
+index.html            Homepage — animated hero, categories, story, testimonials
+products.html         "What's in store" product catalogue
+css/style.css         Styles & design tokens
+js/main.js            GSAP + Lenis scroll animations
+js/i18n.js            Bilingual FR / EN toggle
+assets/img/           Imagery (hero, category & product photography)
 brandkit/             Brand kit — logo direction, palette, typography (+ boards)
 RESEARCH.md           Store research compiled from the Google 360° tour
 ```
+
+Static site — no build step. Vercel serves `index.html` from the repo root with zero config.
 
 ## The site
 
@@ -41,7 +42,6 @@ Display type: **Anton** · Headings: **Archivo** · Body: **Inter**
 ## Run locally
 
 ```bash
-cd site
 python3 -m http.server 8180
 # open http://localhost:8180
 ```
