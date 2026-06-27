@@ -134,6 +134,15 @@ const FR = {
   "bn.p":"Tout sous un même toit — et des visages sympathiques pour vous aider à trouver. Venez voir ce qu'il y a en magasin aujourd'hui.",
   "bn.btn":"Visiter le marché →",
 
+  /* real shop photos (featured) */
+  "rs.kick":"Vraies photos · frais chaque jour",
+  "rs.h":"Frais, <span class=\"ink-orange\">de nos allées.</span>",
+  "rs.p":"Pas des images de banque — ce sont nos vrais rayons, photographiés ici même en magasin. De vrais produits, réapprovisionnés et à prix frais chaque jour.",
+  "rs.badge":"📷 Vraie photo",
+  "rs.c1":"Mur de fruits & légumes — prix du jour",
+  "rs.c2":"Verdures, herbes & légumes frais",
+  "rs.c3":"Le frigo des boissons du monde",
+
   /* tags (shared, reused) */
   "tag.fresh":"Frais","tag.tropical":"Tropical","tag.daily":"Chaque jour","tag.instore":"En magasin",
   "tag.halal":"Halal","tag.pantry":"Garde-manger","tag.aromatic":"Aromatique","tag.brew":"Infusion",

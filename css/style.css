@@ -269,9 +269,38 @@ html.lenis,html.lenis body{height:auto}
 .shop-banner .btn--big:hover{background:var(--ink)}
 .shop-page .visit{padding-top:clamp(60px,8vh,100px)}
 
+/* ===== REAL SHOP PHOTOS (featured / pop-out) ===== */
+.realshop{background:var(--cream);
+  padding:clamp(56px,8vh,100px) clamp(24px,6vw,96px) clamp(40px,6vh,70px);
+  border-top:1px solid rgba(31,92,61,.08)}
+.realshop__head{max-width:1200px;margin:0 auto clamp(30px,4vw,46px);text-align:center}
+.realshop__head h2{font-family:var(--font-display);font-size:clamp(2.2rem,5.6vw,4.6rem);
+  text-transform:uppercase;line-height:.94;margin:12px 0 14px}
+.realshop__head p{max-width:54ch;margin:0 auto;line-height:1.55;opacity:.82}
+.realshop__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,32px);
+  max-width:1200px;margin:0 auto}
+.realcard{position:relative;border-radius:20px;overflow:hidden;
+  border:3px solid var(--orange);
+  box-shadow:0 20px 46px rgba(0,0,0,.18), 0 0 0 7px rgba(63,142,90,.14);
+  transition:transform .45s cubic-bezier(.2,.7,.2,1),box-shadow .45s ease}
+.realcard:hover{transform:translateY(-10px) scale(1.02);
+  box-shadow:0 34px 68px rgba(0,0,0,.26), 0 0 0 7px rgba(232,133,43,.28)}
+.realcard__img{aspect-ratio:4/5;overflow:hidden}
+.realcard__img img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
+.realcard:hover .realcard__img img{transform:scale(1.07)}
+.realcard__badge{position:absolute;top:14px;left:14px;z-index:3;display:inline-flex;align-items:center;gap:5px;
+  font-family:var(--font-head);font-weight:800;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;
+  background:var(--orange);color:var(--ink);padding:7px 13px;border-radius:100px;
+  box-shadow:0 6px 18px rgba(0,0,0,.3)}
+.realcard figcaption{position:absolute;left:0;right:0;bottom:0;z-index:2;
+  padding:46px 18px 16px;color:var(--cream);
+  font-family:var(--font-head);font-weight:700;font-size:1.02rem;letter-spacing:-.01em;
+  background:linear-gradient(transparent,rgba(16,28,18,.9))}
+
 /* ===== RESPONSIVE ===== */
 @media(max-width:960px){
   .pgrid{grid-template-columns:repeat(2,1fr)}
+  .realshop__grid{grid-template-columns:repeat(3,1fr)}
 }
 @media(max-width:860px){
   .nav__brand,.nav__right{position:relative;z-index:100}
@@ -290,6 +319,7 @@ html.lenis,html.lenis body{height:auto}
   .nav.is-open .nav__burger span:first-child{transform:translateY(3.5px) rotate(45deg)}
   .nav.is-open .nav__burger span:last-child{transform:translateY(-3.5px) rotate(-45deg)}
   .testi__grid{grid-template-columns:1fr;max-width:520px}
+  .realshop__grid{grid-template-columns:repeat(2,1fr)}
   .cat__inner,.cat__inner--rev{grid-template-columns:1fr;direction:ltr}
   .cat__inner--rev .cat__media{order:-1}
   .story__stats{grid-template-columns:repeat(2,1fr)}
@@ -299,5 +329,6 @@ html.lenis,html.lenis body{height:auto}
 }
 @media(max-width:560px){
   .pgrid{grid-template-columns:1fr}
+  .realshop__grid{grid-template-columns:1fr;max-width:430px;margin-inline:auto}
   .story__stats{grid-template-columns:1fr}
 }
