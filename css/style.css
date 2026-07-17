@@ -206,6 +206,9 @@ html.lenis,html.lenis body{height:auto}
 .visit__base{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
   margin-top:70px;padding-top:24px;border-top:1px solid rgba(246,241,231,.16);
   font-size:.76rem;letter-spacing:.06em;text-transform:uppercase;opacity:.7}
+.visit__credit{display:block;text-align:center;margin-top:20px;
+  font-size:.76rem;letter-spacing:.05em;color:rgba(246,241,231,.5);transition:color .25s}
+.visit__credit:hover{color:var(--orange)}
 
 /* ===== reveal defaults ===== */
 .reveal-up{opacity:0;transform:translateY(40px)}
