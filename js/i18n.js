@@ -85,7 +85,7 @@ const FR = {
   "vs.say":"Dites bonjour",
   "vs.sayp":"Produits frais chaque jour<br/>Halal & international",
   "vs.dir":"Itinéraire →",
-  "credit":"Propulsé par B12 Internet Ventures",
+  "credit":"Propulsé par B12 Ventures",
 
   /* ===== products page ===== */
   "sh.kick":"Vu sur nos rayons",
